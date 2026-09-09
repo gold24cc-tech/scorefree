@@ -30,3 +30,8 @@ Reported questions are labelled **Reported PYQ**. Original prompts are labelled 
 ## Scoring
 
 SCOREFREE provides a transparent **practice score out of 100** using relevance, structure, language and completeness criteria. It is not an official IBPS/SBI examiner score.
+
+
+### IBPS comprehension
+
+The IBPS Comprehension bank contains 50 complete practice passages. Each test includes the reading passage, a question, topic guidance, and a clearly labelled practice word target. The practice target is not presented as an official IBPS word limit.
