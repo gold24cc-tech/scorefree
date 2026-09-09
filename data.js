@@ -459,7 +459,8 @@ const precisPassages=[
 
 precisPassages.forEach((p,i)=>{
   const q=precisTopics[i];
-  SF.sbi.precis.push(["Practice",2026,q[0],q[1],"Identify the central idea, remove examples and repetition, retain the essential points, and give a concise suitable title.",p[1]]);
+  const task=`Write a précis of the following passage.\n\n${p[1]}`;
+  SF.sbi.precis.push(["Practice",2026,q[0],task,"Identify the central idea, remove examples and repetition, retain the essential points, and give a concise suitable title.",p[1]]);
 });
 const fullPYQ=[
  ["PYQ",2025,"Reported SBI PO Mains descriptive paper — task set","Use the reported task families as a full-paper simulation. Complete the email, situation-analysis and report/precis choice according to the current interface.","For a full paper, prioritise clarity and completion. Use separate structure for each task and reserve time to proofread."],
