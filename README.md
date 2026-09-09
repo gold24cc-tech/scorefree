@@ -1,20 +1,32 @@
 # SCOREFREE
 
-Free, no-login descriptive practice for IBPS PO and SBI PO.
+Free, no-login descriptive-writing practice for IBPS PO/MT and SBI PO.
 
-## Current 2026 patterns
+## Current 2026 exam basis
 
-- **IBPS PO/MT-XVI:** Essay + Comprehension, 2 questions, 25 marks, 30 minutes.
-- **SBI PO 2026:** Emails (1 of 2), Situation Analysis (1 of 2), and either Reports or Precis (1 of 2), 3 responses, 30 marks, 30 minutes.
+- **IBPS PO/MT-XVI:** Essay + Comprehension, 2 questions, 25 marks, 30 minutes, English.
+- **SBI PO 2026:** Emails (1 of 2), Situation Analysis (1 of 2), and either Report Writing or Precis Writing (1 of 2), 30 marks, 30 minutes, English.
 
 ## Word-limit policy
 
-The current official 2026 IBPS PO/MT-XVI and SBI PO 2026 notifications do not publish a universal fixed word limit for these descriptive tasks. SCOREFREE does not invent one. Follow the limit stated in the actual question. For précis, official SBI training guidance says it is normally one-third of the source passage, subject to the question's instruction.
+The current 2026 IBPS PO/MT-XVI and SBI PO 2026 notifications do **not** publish a universal fixed word limit for these descriptive tasks. SCOREFREE therefore does not label its practice ranges as official.
 
-## Test bank
+Where no official fixed limit is published, the question itself shows a clearly labelled **practice target** (for example, 250–300 words for an essay or 80–100 words for a comprehension answer). These ranges are practice guidance only, not bank-issued limits.
 
-Every practice category contains exactly 50 tests. Reported previous-year questions are labelled **Reported PYQ**. The remaining tests are original practice material and are never presented as PYQs.
+For précis, the site follows the SBI training guidance that a précis is normally about one-third of the source passage, while the exact instruction in the question takes priority.
+
+## Practice bank
+
+- 50 IBPS Essay tests
+- 50 IBPS Comprehension tests with full original reading passages and questions
+- 50 SBI Email tests
+- 50 SBI Situation Analysis tests
+- 50 SBI Report tests
+- 50 SBI Precis tests
+- 50 SBI Full Descriptive practice sets
+
+Reported questions are labelled **Reported PYQ**. Original prompts are labelled **Practice**.
 
 ## Scoring
 
-Banks publish marks, duration and task structure, but do not publish a detailed public writing-rubric formula. SCOREFREE therefore gives a transparent **practice score out of 100** based on relevance, structure, language and completeness. It is not an official IBPS/SBI score.
+SCOREFREE provides a transparent **practice score out of 100** using relevance, structure, language and completeness criteria. It is not an official IBPS/SBI examiner score.
