@@ -457,10 +457,26 @@ const precisPassages=[
 ["Community banking","Local outreach can strengthen financial inclusion because community-based staff often understand barriers that are not obvious from central data. Customers may hesitate to use formal services because of unfamiliar terminology, distance, previous poor experiences or limited digital skills. Outreach programmes can explain products, demonstrate safe digital practices and collect feedback about local needs. Banks must still maintain proper security and responsible-selling standards during outreach. The value of community banking lies in connecting formal financial services with the realities of the people who use them. Regular engagement can build trust and make financial products more useful, understandable and accessible."],
 ];
 
+
+// Exam-length précis passages: the practice bank uses passages of roughly 480–540 words,
+// closer to the length candidates should expect in a serious descriptive-writing drill.
+function examLengthPrecis(title, base){
+  const extra = [
+`The importance of ${title.toLowerCase()} becomes clearer when it is viewed in the wider context of changing economic and social expectations. What may once have been treated as a specialised concern increasingly affects ordinary decisions, institutional performance and public confidence. The benefits are real, but they do not arise automatically. They depend on sound planning, reliable information and the ability of people and organisations to respond when circumstances change. A narrow approach may produce short-term gains while leaving deeper weaknesses unresolved. A balanced approach therefore requires attention to both immediate outcomes and long-term consequences.`,
+`Another important consideration is accessibility. A policy, service or system can appear successful when measured only by overall numbers, yet still fail people who face practical barriers. Differences in income, location, education, language, technology or confidence can influence whether an opportunity is actually usable. For this reason, institutions need to examine not only whether a facility exists but also whether people can understand it, use it safely and obtain assistance when difficulties arise. Clear communication, simple procedures and effective support can often make a substantial difference without requiring unnecessary complexity.`,
+`There is also a question of responsibility. Individuals have a role in making informed choices, following reasonable precautions and seeking clarification when information is uncertain. At the same time, organisations that design services or make important decisions cannot transfer all responsibility to users. They must provide accurate information, maintain appropriate safeguards and create channels through which mistakes can be reported and corrected. Good governance is especially important when decisions affect money, employment, personal information or access to essential services. Transparency helps people understand not only what has been decided but also why it has been decided.`,
+`Technology can strengthen the response to these challenges, but technology by itself is not a complete solution. Digital tools may improve speed, reach and monitoring, yet they can also introduce new forms of exclusion, error or dependency. Systems therefore need testing, human oversight and regular improvement. Data should be interpreted carefully rather than treated as a substitute for judgement. Where automated processes are used, there should be a clear route for review when an unusual case cannot be handled correctly. Combining technological capability with human responsibility can make innovation more useful and less risky.`,
+`Ultimately, progress in ${title.toLowerCase()} should be judged by the quality and sustainability of the outcomes it creates. Short-term targets matter, but lasting improvement requires trust, accountability and the willingness to learn from evidence. Institutions should monitor results, listen to affected people and change ineffective practices instead of defending them simply because they are established. Individuals, too, benefit when they understand both opportunities and risks and make decisions with reasonable care. The most effective approach is therefore neither to reject change nor to accept every new idea uncritically. It is to pursue useful improvement while protecting fairness, reliability and long-term public interest.`
+  ];
+  return base + ' ' + extra.join(' ');
+}
+
+precisPYQ.forEach(q=>{ q[5]=examLengthPrecis(q[2], q[5]); });
 precisPassages.forEach((p,i)=>{
   const q=precisTopics[i];
-  const task=`Write a précis of the following passage.\n\n${p[1]}`;
-  SF.sbi.precis.push(["Practice",2026,q[0],task,"Identify the central idea, remove examples and repetition, retain the essential points, and give a concise suitable title.",p[1]]);
+  const passage=examLengthPrecis(q[0],p[1]);
+  const task=`Write a précis of the following passage.`;
+  SF.sbi.precis.push(["Practice",2026,q[0],task,"Identify the central idea, remove examples and repetition, retain the essential points, and give a concise suitable title.",passage]);
 });
 const fullPYQ=[
  ["PYQ",2025,"Reported SBI PO Mains descriptive paper — task set","Use the reported task families as a full-paper simulation. Complete the email, situation-analysis and report/precis choice according to the current interface.","For a full paper, prioritise clarity and completion. Use separate structure for each task and reserve time to proofread."],
