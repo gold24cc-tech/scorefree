@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gold24cc-tech.github.io/scorefree/sitemap.xml
+Sitemap: https://letscrackitt.github.io/scorefree/sitemap.xml
