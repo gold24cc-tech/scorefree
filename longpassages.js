@@ -92,12 +92,12 @@
 
   function extend(q){
     const base=clean(q[5]);
-    if(!base || wc(base)>=600) return;
+    if(!base || wc(base)>=500) return;
     const topic=clean(q[2]);
     const bank=chooseBank(topic);
     let text=base;
     for(const p of bank){
-      if(wc(text)>=720) break;
+      if(wc(text)>=500) break;
       text += '\n\n' + p;
     }
     q[5]=text;
